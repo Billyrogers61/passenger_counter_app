@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-image: url("./images/train-station.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: darkorange;
+  padding-top: 4rem;
+}
+
+h2 {
+  width: 200px;
+  margin: auto;
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: white;
+  color: red;
+}
+
+button {
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: darkorange;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  margin-top: 2rem;
+  cursor: pointer;
+}
